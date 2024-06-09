@@ -8,7 +8,7 @@ import Post from "../post";
 export default function UserPostList() {
   const { userId } = useParams();
   const { data: posts, isLoading } = usePosts(userId);
-  console.log(posts);
+
   return (
     <Box>
       {posts?.length === 0 ? (

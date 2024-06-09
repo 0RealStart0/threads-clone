@@ -27,7 +27,6 @@ export const commonOptions = {
 export function useUser(id) {
   const q = query(doc(db, "users", id));
 
-  // console.log("useUser", id);
   const userQuery = useQuery({
     queryKey: ["user", id],
     // eslint-disable-next-line react-hooks/rules-of-hooks
