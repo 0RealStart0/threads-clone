@@ -44,3 +44,10 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+
+#파이어베이스 규칙 관련
+.firebaserc
+firebase.json
+firestore.indexes.json
+storage.rules
+firestore.rules
